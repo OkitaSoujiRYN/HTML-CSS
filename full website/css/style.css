@@ -1,0 +1,72 @@
+body{
+    color: rgb(9, 2, 2);
+    margin: 0;
+    background-image: url("../assets/images/river.jpg");
+    font-family: sans-serif;
+}
+div.container{
+    border:solid rgb(0, 72, 72) 9px;
+    width: 952px;;
+    display:inline block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+*{
+    margin: 0;
+}
+
+a:hover{
+    color: aquamarine;
+}
+video{
+    display: block;
+    margin:auto;
+    width: fit-content;
+    border-radius: 5%;
+    border: solid 8px aquamarine;
+}
+    #main-nav{
+    width: 99.5%;
+    float:left;
+    border:solid cornflowerblue 5px;
+    background-color: aqua;
+}
+ul{
+    list-style-type: lower-alpha;
+}
+.content{
+    line-height: 1.4em;
+    padding: 5px;
+}
+fieldset{
+    border: solid aliceblue 5px;
+}
+header{
+    width: fit-content;
+}
+nav ul{
+    margin: 0;
+    padding: 5px;
+}
+nav li{
+    display: inline;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+nav li a:link{
+    color: blue;
+}
+nav li a:hover{
+}
+nav li a:visited{
+    color: yellowgreen;
+}
+.img-centre{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5%;
+    border: aqua 5px solid;
+}
